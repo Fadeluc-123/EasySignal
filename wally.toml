@@ -1,0 +1,19 @@
+[package]
+name = "fadeluc-123/easysignal"
+description = "A function based signal system, with a dead-easy to use api. Great for React elements, without the need for a bindable event."
+version = "1.0.0"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+license = "Apache-2.0"
+exclude = ["**"]
+authors = [
+    "Michael Sumner <mike@whiteoak.studio>"
+]
+
+include = [
+    "src",
+    "src/init.lua",
+]
+
+[dev-dependencies]
+TestEZ = "roblox/testez@0.4.1"
