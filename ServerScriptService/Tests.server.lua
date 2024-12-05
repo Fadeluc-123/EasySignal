@@ -1,9 +1,9 @@
-local ReplicatedStorage = game:GetService("ReplicatedStorage")
+-- local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
-local TestEZ = require(ReplicatedStorage.DevPackages.TestEZ)
+-- local TestEZ = require(ReplicatedStorage.DevPackages.TestEZ)
 
-local EasySignal = script.Parent.Parent.Module
+-- local ObjectCache = script.Parent.Parent.Module
 
-TestEZ.TestBootstrap:run({
-    EasySignal["init.spec"],
-})
+-- TestEZ.TestBootstrap:run({
+--     ObjectCache["init.spec"],
+-- })

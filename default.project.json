@@ -1,7 +1,6 @@
 {
   "name": "easysignal",
-
   "tree": {
-      "$path": "src"
+    "$path": "src"
   }
 }

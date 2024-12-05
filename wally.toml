@@ -1,19 +1,18 @@
 [package]
 name = "fadeluc-123/easysignal"
-description = "A function based signal system, with a dead-easy to use api. Great for React elements, without the need for a bindable event."
+description = "A function based signal system, with a dead-easy to use api. Great for React elements, without the need for a bindable event. Property of Roblox under Apache License 2.0: Documentation: https://github.com/Fadeluc-123/EasySignal"
 version = "1.0.0"
 registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"
-license = "Apache-2.0"
 exclude = ["**"]
-authors = [
-    "Michael Sumner <mike@whiteoak.studio>"
-]
-
 include = [
     "src",
     "src/init.lua",
+    "default.project.json",
+    "wally.toml"
 ]
+
+[dependencies]
 
 [dev-dependencies]
 TestEZ = "roblox/testez@0.4.1"
